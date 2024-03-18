@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="http://localhost:3000/users" method="POST">    
+  <form action="https://lab-express-crud.vercel.app/users" method="POST">    
     <label for="nombre">Cédula:</label>
     <input type="number" id="cedula" name="cedula" required><br><br>
     <label for="nombre">Nombre:</label>
@@ -21,10 +21,4 @@
     </section>
 </form>
 </body>
-<script>
-  const button = document.getElementById('submit')
-  button.addEventListener('submit', (event) => {
-    event.preventDefault()
-  })
-</script>
 </html>
