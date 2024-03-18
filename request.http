@@ -1,0 +1,22 @@
+GET http://localhost:3000/users/12414
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "nombre": "Diego",
+  "edad": "18"
+}
+###
+PUT http://localhost:3000/users/1048851469
+Content-Type: application/json
+
+{
+  "nombre": "Carlos Segura"
+}
+
+###
+DELETE http://localhost:3000/users/4
+Content-Type: application/json

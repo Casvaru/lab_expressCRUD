@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "cedula": 1048851469,
+      "nombre": "Carlos Segura",
+      "edad": "24"
+    },
+    {
+      "id": 2,
+      "cedula": 1048851470,
+      "nombre": "María",
+      "edad": "24"
+    },
+    {
+      "id": 3,
+      "cedula": 1048851471,
+      "nombre": "José",
+      "edad": "24"
+    },
+    {
+      "id": 4,
+      "cedula": 7335874,
+      "nombre": "Arturo2",
+      "edad": "27"
+    }
+  ]
+}
